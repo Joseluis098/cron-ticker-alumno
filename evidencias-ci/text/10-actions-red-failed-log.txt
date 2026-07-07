@@ -1,0 +1,52 @@
+﻿test	Run tests	﻿2026-07-07T00:45:35.5850538Z ##[group]Run npm test
+test	Run tests	2026-07-07T00:45:35.5850878Z [36;1mnpm test[0m
+test	Run tests	2026-07-07T00:45:35.5884633Z shell: /usr/bin/bash -e {0}
+test	Run tests	2026-07-07T00:45:35.5884911Z ##[endgroup]
+test	Run tests	2026-07-07T00:45:35.6988307Z 
+test	Run tests	2026-07-07T00:45:35.6989570Z > cron-ticker@1.0.0 test
+test	Run tests	2026-07-07T00:45:35.6990506Z > jest --forceExit
+test	Run tests	2026-07-07T00:45:35.6991018Z 
+test	Run tests	2026-07-07T00:45:36.7811176Z PASS tests/sync.test.js
+test	Run tests	2026-07-07T00:45:36.7980569Z   ● Console
+test	Run tests	2026-07-07T00:45:36.8019408Z 
+test	Run tests	2026-07-07T00:45:36.8019771Z     console.log
+test	Run tests	2026-07-07T00:45:36.8020366Z       Tick cada multiplo de 5:  1
+test	Run tests	2026-07-07T00:45:36.8020696Z 
+test	Run tests	2026-07-07T00:45:36.8020919Z       at log (tasks/sync.js:5:13)
+test	Run tests	2026-07-07T00:45:36.8021218Z 
+test	Run tests	2026-07-07T00:45:36.8021369Z     console.log
+test	Run tests	2026-07-07T00:45:36.8021787Z       Tick cada multiplo de 5:  2
+test	Run tests	2026-07-07T00:45:36.8022522Z 
+test	Run tests	2026-07-07T00:45:36.8022745Z       at log (tasks/sync.js:5:13)
+test	Run tests	2026-07-07T00:45:36.8023023Z 
+test	Run tests	2026-07-07T00:45:36.8023172Z     console.log
+test	Run tests	2026-07-07T00:45:36.8023508Z       Se llamo  2
+test	Run tests	2026-07-07T00:45:36.8023768Z 
+test	Run tests	2026-07-07T00:45:36.8024025Z       at Object.log (tests/sync.test.js:8:17)
+test	Run tests	2026-07-07T00:45:36.8024374Z 
+test	Run tests	2026-07-07T00:45:36.9231283Z FAIL tests/math.test.js
+test	Run tests	2026-07-07T00:45:36.9280588Z   ● multiply › debe multiplicar dos números positivos
+test	Run tests	2026-07-07T00:45:36.9287307Z 
+test	Run tests	2026-07-07T00:45:36.9324263Z     expect(received).toBe(expected) // Object.is equality
+test	Run tests	2026-07-07T00:45:36.9344952Z 
+test	Run tests	2026-07-07T00:45:36.9363955Z     Expected: 999
+test	Run tests	2026-07-07T00:45:36.9364438Z     Received: 12
+test	Run tests	2026-07-07T00:45:36.9364666Z 
+test	Run tests	2026-07-07T00:45:36.9365007Z     [0m [90m 4 |[39m
+test	Run tests	2026-07-07T00:45:36.9366359Z      [90m 5 |[39m     test([32m'debe multiplicar dos números positivos'[39m[33m,[39m () [33m=>[39m {
+test	Run tests	2026-07-07T00:45:36.9368204Z     [31m[1m>[22m[39m[90m 6 |[39m         expect(multiply([35m3[39m[33m,[39m [35m4[39m))[33m.[39mtoBe([35m999[39m)[33m;[39m
+test	Run tests	2026-07-07T00:45:36.9370938Z      [90m   |[39m                                [31m[1m^[22m[39m
+test	Run tests	2026-07-07T00:45:36.9372932Z      [90m 7 |[39m     })[33m;[39m
+test	Run tests	2026-07-07T00:45:36.9392006Z      [90m 8 |[39m
+test	Run tests	2026-07-07T00:45:36.9427838Z      [90m 9 |[39m     test([32m'debe multiplicar por cero'[39m[33m,[39m () [33m=>[39m {[0m
+test	Run tests	2026-07-07T00:45:36.9438956Z 
+test	Run tests	2026-07-07T00:45:36.9440003Z       at Object.toBe (tests/math.test.js:6:32)
+test	Run tests	2026-07-07T00:45:36.9440422Z 
+test	Run tests	2026-07-07T00:45:36.9580645Z Test Suites: 1 failed, 1 passed, 2 total
+test	Run tests	2026-07-07T00:45:36.9581758Z Tests:       1 failed, 13 passed, 14 total
+test	Run tests	2026-07-07T00:45:36.9582488Z Snapshots:   0 total
+test	Run tests	2026-07-07T00:45:36.9582998Z Time:        0.844 s
+test	Run tests	2026-07-07T00:45:36.9583457Z Ran all test suites.
+test	Run tests	2026-07-07T00:45:36.9584798Z Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+test	Run tests	2026-07-07T00:45:36.9729244Z ##[error]Process completed with exit code 1.
+
